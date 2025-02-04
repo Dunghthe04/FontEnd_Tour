@@ -1,0 +1,186 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.title{
+    width: 33.3%;
+    text-align: center;
+    color: #0EC0C3;
+    font-size: 28px;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 196px;
+    height: 140px;
+}
+.search{ 
+    width: 33.3%;
+}
+.menu{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.menu ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.box-content .box-img img{
+    width: 100%;
+}
+
+.box-content .box-desc h2{
+    color: #0EC0C3;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+.box-content .box-desc p{
+    font-size: 17px;
+}
+
+.box-content .box-form h2{
+    color: #0EC0C3;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.title-famous{
+    color: #0EC0C3;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.famous{
+    margin-bottom: 40px;
+}
+.famous-img img{
+    width: 100%;
+    height: 257px;
+}
+
+.content-img img{
+    width: 100%;
+}
+
+.content-desc{
+    font-size: 17px;
+}
+.content-desc h2{
+    margin-top: 0;
+    color: #4bab44;
+}
+
+.content-price h4{
+    color: #FF7A0F;
+    margin-top: 26px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.content-price p{
+    background-color: #0EC0C3;
+    color: #ffffff;
+    width: 105px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5p
+}
+
+.footer{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #0FC1C5;
+    padding: 10px;
+}
+.footer p, h5{
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        flex-direction: column;
+        padding:0;
+    }
+    
+    .title, .logo, .desc{
+        width: 100%;
+    }
+
+    .title h2{
+        font-size: 58px;
+        width: 100%;
+        max-width: 96%;
+        margin: 60px 0;
+        font-style: italic;
+        padding-left: 46px;
+    }
+    .logo img{
+        width: 60%;
+        height: auto;
+    }
+   
+    .desc input{
+        height: 60px;
+        font-size: 23px;
+    }
+
+    .desc span{
+        font-size: 20px;
+    }
+
+    
+     h2{
+        font-size: 56px;
+    }
+
+    .famous h2{
+        font-size: 56px;
+    }
+
+    .famous-img img{
+        margin-bottom: 10px;
+    }
+
+     p{
+        font-size: 45px;
+    }
+    .content-desc{
+        margin-top: 30px;
+    }
+
+    .content-price{
+        font-size: 35px;
+    text-align: center;
+    }
+
+    .content-price p{
+        width: 70%;
+        height: 72px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #2CC7DF;
+    }
+
+    .footer p{
+        font-size: 28px;
+    }
+
+    .footer h5{
+        font-size: 23px;
+    }
+}
